@@ -12,9 +12,9 @@ const App = props => {
     }
 
     let forcast
-    if ( type == "current") {
+    if ( type === "current") {
         forcast = <Current />
-    }else if ( type == "7-day") {
+    }else if ( type === "7-day") {
         forcast = <SevenDay />
     }
 
